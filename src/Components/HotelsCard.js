@@ -98,8 +98,8 @@ class HotelsCard extends Component {
 
               {this.props.adults.active ? (
                 <select className="custom-select-sm" onChange={this.handleLangChange.bind(this,this.props.adults.id,'children')}>
-                {[...Array(2)].map((e, i) => {
-                  return <option selected={this.props.adults.children} key={i}>{i} </option>;
+                {[...Array(3)].map((e, i) => {
+                  return <option selected={this.props.adults.children == i} key={i}>{i} </option>;
                 })}
               </select>
               ) : (
@@ -108,7 +108,7 @@ class HotelsCard extends Component {
                   <select  disabled>
                     {[...Array(2)].map((e, i) => {
                       return (
-                        <option selected={this.props.adults.children} key={i}>
+                        <option selected={this.props.adults.children == i} key={i}>
                           {i}
                         </option>
                       );
