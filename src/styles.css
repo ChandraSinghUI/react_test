@@ -1,0 +1,83 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+/* label.heading_text {
+  width: 100%;
+  margin-left: 30px;
+}
+label.heading_text:first-child {
+  margin-left: 10px !important;
+} */
+.form-check {
+  padding-left: 2rem;
+}
+select {
+  margin-left: 5px;
+}
+.card {
+  background: #f3eeee57 !important;
+}
+.text{font-size: 13px;}
+.col-sm-5.pa {
+  padding-right: 0px;
+  padding-left: 5px;
+}
+.label-header {
+  background: #4B286D;
+  color: #fff;
+  border-radius: 5px 5px 0px 0px;
+  padding: 10px 0px 0px 10px;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+label.heading_text {
+ padding-left:8px
+}
+label.heading_text:first-child {
+  padding-left:10px !important;
+} 
+.text-adult{font-size: 13px; padding-left: 5px;}
+.card {padding-bottom: 20px;}
+/* Styles for hiding the native checkbox */
+input[type='checkbox'].check-custom {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+}
+
+/* Styles for the basic appearance of the custom checkbox */
+input[type='checkbox'].check-custom ~ .check-toggle {
+  width: 1rem;
+  height: 1rem;
+  position: relative;
+  display: inline-block;
+  vertical-align: middle;
+  border: 2px solid #969696;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+/* Styles for the hover state appearance of the custom checkbox */
+input[type='checkbox'].check-custom:hover ~ .check-toggle {
+  border-color: #4a4a4a;
+}
+
+/* Styles for the focus state appearance of the custom checkbox */
+input[type='checkbox'].check-custom:focus ~ .check-toggle {
+  border-color: #b0d5ff;
+  box-shadow: 0 0 0 2px rgba(23, 133, 255, 0.25);
+}
+
+/* Styles for the checked state appearance of the custom checkbox */
+input[type='checkbox'].check-custom:checked ~ .check-toggle {
+  border-color: #1785ff;
+  background: #1785ff url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgdmlld0JveD0iMCAwIDI0IDI0IiBmaWxsPSJub25lIiBzdHJva2U9IiNmZmZmZmYiIHN0cm9rZS13aWR0aD0iMyIgc3Ryb2tlLWxpbmVjYXA9InJvdW5kIiBzdHJva2UtbGluZWpvaW49InJvdW5kIj48cG9seWxpbmUgcG9pbnRzPSIyMCA2IDkgMTcgNCAxMiI+PC9wb2x5bGluZT48L3N2Zz4=) center no-repeat;
+  background-size: 75%;
+}
+select{border: 1px solid #4B286D}
+select:disabled{background:#c0a8a8;border: 1px solid #969696}
